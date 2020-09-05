@@ -63,7 +63,7 @@ plt.ylim([0.1,20])
 plt.ylabel('Radius (Solar)')
 plt.legend()
 plt.tight_layout()
-#plt.savefig('tks-hrd.png',dpi=200)
+plt.savefig('koi-toi-hrd.png',dpi=200)
 
 ix=np.where(tess_spoc['Effective Temperature Value'] > 7000.)[0]
 ascii.write(tess_spoc[ix],'tess_spoc_candidates.csv',delimiter=',')
