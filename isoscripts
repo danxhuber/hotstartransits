@@ -1,0 +1,3 @@
+# commandline script to run isoclassify
+isoclassify batch grid tess_spoc_candidates_isocl.csv -o output_spoc > isoclassify_spoc.tot
+isoclassify scrape-output 'output_spoc/*/output.csv' iso_output_spoc.csv

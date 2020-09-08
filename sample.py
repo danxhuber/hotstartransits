@@ -20,6 +20,8 @@ plt.rcParams['xtick.major.pad']='6'
 plt.rcParams['ytick.major.pad']='8'
 plt.rcParams['axes.formatter.useoffset']=False
 
+# define the sample
+
 # sigma_depth/depth cut
 snrcut=0.1
 

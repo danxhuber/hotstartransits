@@ -1,0 +1,31 @@
+id_starname TOI412
+dust: allsky
+teff -99 0
+logg -99 0
+feh -99 0
+lum -99 0
+gmag -99 0
+rmag -99 0
+imag -99 0
+zmag -99 0
+jmag -99 0
+hmag -99 0
+kmag 10.972999999999999 0.026000000000000002
+gamag -99 0
+bpmag 11.3471 0.00227
+rpmag 11.227 0.001559
+parallax 0.00013709127948662058 1.9117463976741823e-05
+bmag -99 0
+vmag -99 0
+btmag -99 0
+vtmag -99 0
+numax -99 0
+dnu -99 0
+dmag -99 0
+ra 74.2867684629208
+dec -66.3903335287963
+number of models used within non-phot obsconstraints: 6999550
+number of models incl reddening: 6999550
+number of models after phot constraints: 0
+----
+created output_spoc/TOI412/output.csv
