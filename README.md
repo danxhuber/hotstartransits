@@ -6,3 +6,11 @@ Subprojects (at least 3):
 2) Use ExoFOP to exclude known spectroscopic binaries, background EBs, etc
 3) Recalculate stellar parameters for host stars (possibly including spectroscopic information from  and compare to transit durations
 4) Refit transits for candidates passing steps 1-3, check sample for pulsations
+
+sample.py takes full TOI list, makes some quality cuts and output hot star PCs
+
+isoinput.py takes sample.py output, queries TIC for stellar information, and prepares isoclassify input file
+
+isoscripts are commandline scripts to run isoclassify
+
+tdur.py takes isoclassify output and compares transit durations to mean stellar densities
